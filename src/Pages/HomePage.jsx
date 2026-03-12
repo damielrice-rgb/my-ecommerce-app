@@ -2,7 +2,11 @@ import './header.css';
 import './HomePage.css';
 export function HomePage() {
 return (
+
+
   <>
+   <title>Ecommerce Project</title>
+   
    <div class="header">
       <div className="left-section">
         <a href="index.html" class="header-link">
