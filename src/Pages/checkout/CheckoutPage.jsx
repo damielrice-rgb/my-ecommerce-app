@@ -1,4 +1,5 @@
 import { CheckoutHeader } from '../checkout/CheckoutHeader';
+import carticon from '../../assets/images/cart-favicon.png';
 
 import './CheckoutPage.css';
 
@@ -8,6 +9,7 @@ export function CheckoutPage () {
     <title>Checkout</title>
 
     <CheckoutHeader />
+     <link rel="icon" href={carticon} />
 
 
      
